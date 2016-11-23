@@ -18,3 +18,5 @@ class Solution:
             return False
         while pPointer<len(p) and p[pPointer]=='*':
             pPointer+=1
+        if pPointer==len(p): return True
+        return False
